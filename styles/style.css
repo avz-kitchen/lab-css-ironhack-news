@@ -97,7 +97,7 @@ header {
 }
 
 .navbar li {
-  width: 130px;
+  width: 120px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -279,6 +279,9 @@ header {
 
   }
 
+  #menu-icon {
+    display: hidden;
+  }
 
   .navbar {
     flex-direction: column;
@@ -323,6 +326,7 @@ header {
     overflow: hidden;
     position: relative;
     flex-direction: column;
+    ddi
   }
 
   .navbar li {
@@ -330,3 +334,8 @@ header {
     justify-content: center;
     border-bottom: 1px solid white;
   }
+
+  .navbar a {
+    display: none;
+  }
+}
